@@ -1,0 +1,12 @@
+{
+  "name": "client-example-node",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "client-oauth2": "^4.1.0",
+    "traverson": "^6.0.3",
+    "traverson-hal": "^6.0.0"
+  }
+}
