@@ -18,8 +18,8 @@ new ClientOAuth2({
     .jsonHal()
     .getResource((error, resource) => {
       const navn = resource._embedded._entries[0].navn;
-      console.log(`${navn.fornavn} ${navn.etternavn}`);
-      console.log(resource._links.self[0].href);
+      console.log(`Person: ${navn.fornavn} ${navn.etternavn}`);
+      console.log(`Self link: ${resource._links.self[0].href}`);
     });
 });
 
