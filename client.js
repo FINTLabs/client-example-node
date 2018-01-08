@@ -13,7 +13,7 @@ new ClientOAuth2({
   traverson
     .from('https://beta.felleskomponent.no/administrasjon/personal/person')
     .withRequestOptions({
-      headers: { 'Authorization': 'Bearer ' + user.accessToken }
+      headers: { 'Authorization': `Bearer ${user.accessToken}` }
     })
     .jsonHal()
     .getResource((error, resource) => {
