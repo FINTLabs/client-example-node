@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "client-oauth2": "^4.1.0",
-    "traverson": "^6.0.3",
+    "traverson": "^6.1.1",
     "traverson-hal": "^6.0.0"
   }
 }
